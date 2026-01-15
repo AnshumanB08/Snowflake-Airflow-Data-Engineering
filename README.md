@@ -139,7 +139,7 @@ The curated Subject Area (SA) views are consumed directly by Microsoft Power BI 
 * Top sectors by symbol count
 * Comprehensive ETF liquidity ranking
 
-![Market Liquidity Overview](market_liquidity.png)
+![Market Liquidity Overview]()
 
 **Equity Performance & Watchlist Insights**
 
@@ -148,7 +148,7 @@ The curated Subject Area (SA) views are consumed directly by Microsoft Power BI 
 * Watchlist price movements and volatility
 * OHLC price behavior and security-type contribution
 
-![Equity Performance & Watchlist Insights](equity_peformance.png)
+![Equity Performance & Watchlist Insights]()
 
 ### Power BI Dashboard Preview
 
