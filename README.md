@@ -84,7 +84,7 @@ The architecture follows a clear separation of concerns between ingestion, stora
 * Power BI consumes SA views for dashboards
 * Slack alerts provide operational visibility
 
-![Project Architecture](images/project_architecture.png)
+![Project Architecture](project_architecture.png)
 
 ---
 
@@ -100,7 +100,7 @@ The Airflow DAG handles:
 * Post-merge metrics computation
 * Slack notification with run summary
 
-![Airflow DAG Run](images/dag_run.png)
+![Airflow DAG Run](dag_run.png)
 
 ---
 
@@ -108,7 +108,7 @@ The Airflow DAG handles:
 
 End-to-end lineage is maintained across RAW → CORE → DIM/FACT → SA, enabling traceability and impact analysis for downstream analytics.
 
-![SEC\_PRICING Lineage](images/SEC_PRICING_database_lineage.png)
+![SEC\_PRICING Lineage](SEC_PRICING_database_lineage.png)
 
 ---
 
@@ -122,7 +122,7 @@ The SA layer exposes curated, analytics-ready datasets designed explicitly for B
 * Sector-level liquidity contribution snapshots
 * Watchlist trend and momentum tracking
 
-![SA Layer Views](images/SA_layer_views.png)
+![SA Layer Views](SA_layer_views.png)
 
 ---
 
@@ -132,15 +132,6 @@ The curated Subject Area (SA) views are consumed directly by Microsoft Power BI 
 
 ### Dashboard Pages
 
-**Equity Performance & Watchlist Insights**
-
-* Daily and rolling return trends
-* Top equities by traded volume and value
-* Watchlist price movements and volatility
-* OHLC price behavior and security-type contribution
-
-![Equity Performance & Watchlist Insights](images/equity_performance.png)
-
 **Market Liquidity Overview**
 
 * Sector-wise liquidity contribution
@@ -148,12 +139,20 @@ The curated Subject Area (SA) views are consumed directly by Microsoft Power BI 
 * Top sectors by symbol count
 * Comprehensive ETF liquidity ranking
 
-![Market Liquidity Overview](images/market_liquidity.png)
+![Market Liquidity Overview](market_liquidity.png)
+
+**Equity Performance & Watchlist Insights**
+
+* Daily and rolling return trends
+* Top equities by traded volume and value
+* Watchlist price movements and volatility
+* OHLC price behavior and security-type contribution
+
+![Equity Performance & Watchlist Insights](equity_peformance.png)
 
 ### Power BI Dashboard Preview
 
-🔗 **Live Dashboard Preview:**
-*Add your Power BI Service dashboard link here*
+🔗 [**Live Dashboard Preview**](https://app.powerbi.com/view?r=eyJrIjoiMGI2MzJhODEtMTVlMS00NzM1LWE4YmEtM2NmYzc2MTZmNDU2IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 ---
 
@@ -197,7 +196,7 @@ The curated Subject Area (SA) views are consumed directly by Microsoft Power BI 
 
 ## Acknowledgements
 
-Special thanks to **Codebasics** for the structured guidance and real-world data engineering approach provided as part of their Data Engineering course. This project was built as a direct application of those concepts, with a strong focus on production-grade design, clarity, and business impact.
+Special thanks to [**Codebasics**](https://codebasics.io/) for the structured guidance and real-world data engineering approach provided as part of their Data Engineering course. This project was built as a direct application of those concepts, with a strong focus on production-grade design, clarity, and business impact.
 
 ---
 
