@@ -10,7 +10,7 @@ The platform orchestrates daily ingestion, validation, transformation, and publi
 
 ## Business Context
 
-RBF analysts previously relied on manual data collection and ad-hoc reporting, which delayed insights into market liquidity, sector rotations, ETF performance, and watchlist momentum. This limited the firm’s ability to respond to market movements before the next trading day and introduced operational risk through manual handling.
+RBF financial analysts previously relied on manual data collection and ad-hoc reporting, which delayed insights into market liquidity, sector rotations, ETF performance, and watchlist momentum. This limited the firm’s ability to respond to market movements before the next trading day and introduced operational risk through manual handling.
 
 The objective was to design and deliver an automated, scalable, and auditable batch analytics platform that ensures timely availability of high-quality EOD data every trading day.
 
