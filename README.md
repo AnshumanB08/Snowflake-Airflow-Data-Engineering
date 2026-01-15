@@ -128,16 +128,32 @@ The SA layer exposes curated, analytics-ready datasets designed explicitly for B
 
 ## Power BI Dashboards
 
-The curated SA views are consumed directly by Power BI to deliver decision-support dashboards, including:
+The curated Subject Area (SA) views are consumed directly by Microsoft Power BI to deliver interactive, decision-support dashboards for trading, risk, and research teams.
 
-* Equity & ETF Liquidity Insights
-* Watchlist Performance & Momentum Tracking
-* Volume and Traded-Value Intelligence
-* Sector-Level Liquidity Contribution
-* Daily Top Market Movers
+### Dashboard Pages
 
-![Power BI Dashboard 1](images/power_bi_dashboard_1.png)
-![Power BI Dashboard 2](images/power_bi_dashboard_2.png)
+**Equity Performance & Watchlist Insights**
+
+* Daily and rolling return trends
+* Top equities by traded volume and value
+* Watchlist price movements and volatility
+* OHLC price behavior and security-type contribution
+
+![Equity Performance & Watchlist Insights](images/equity_performance.png)
+
+**Market Liquidity Overview**
+
+* Sector-wise liquidity contribution
+* ETF 30-day liquidity trends
+* Top sectors by symbol count
+* Comprehensive ETF liquidity ranking
+
+![Market Liquidity Overview](images/market_liquidity.png)
+
+### Power BI Dashboard Preview
+
+🔗 **Live Dashboard Preview:**
+*Add your Power BI Service dashboard link here*
 
 ---
 
