@@ -76,7 +76,7 @@ The architecture follows a clear separation of concerns between ingestion, stora
 
 **High-level flow:**
 
-* Market data sourced from Polygon.io
+* Market data sourced from Polygon.io (a.k.a. Massive.com)
 * Airflow ingestion DAGs extract and stage data to Amazon S3
 * Snowflake external stages and COPY commands load data into RAW
 * SQL-based transformations propagate data through CORE, DIM, and FACT layers
