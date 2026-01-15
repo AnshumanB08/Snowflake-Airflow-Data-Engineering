@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a fully automated End-of-Day (EOD) securities pricing analytics platform for a global investment firm. The solution replaces manual CSV-based reporting with a reliable, scheduled batch data pipeline that delivers business-ready analytics for trading, risk, and research teams.
+This project implements a fully automated End-of-Day (EOD) securities pricing analytics platform for a imaginary global investment firm. The solution replaces manual CSV-based reporting with a reliable, scheduled batch data pipeline that delivers business-ready analytics for trading, risk, and research teams.
 
 The platform orchestrates daily ingestion, validation, transformation, and publication of U.S. securities pricing and liquidity data using Apache Airflow and Snowflake, with downstream consumption through Power BI dashboards.
 
